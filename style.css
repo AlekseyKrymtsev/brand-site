@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1600px;
+}
+
+.margin-site {
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.header {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 24px;
+}
+
+.brand {
+    padding-top: 20px;
+    padding-bottom: 12px;
+    padding-left: 13px;
+    text-decoration: none;
+    color: #222222;
+    font-size: 27px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brand-pink {
+    color: #f16d7f;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.68px;
+}
+
+.form {
+    margin-left: 37px;
+    margin-top: 32px;
+    margin-bottom: 30px;
+}
+
+.browse {
+    width: 87px;
+    height: 38px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+    color: #838383;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.form input {
+    width: 280px;
+    height: 36px;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    color: #a4a4a4;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    padding-left: 3px;
+}
+
+.magnifier {
+    width: 37px;
+    height: 37px;
+    color: #a4a4a4;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+}
+
+
+.my-account {
+    display: flex;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    margin-left: 335px;
+}
+
+.basket {
+    padding-top: 9px;
+}
+
+.account {
+    width: 130px;
+    height: 38px;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin-left: 26px;
+}
+
+.menu {
+    padding-top: 19px;
+    padding-bottom: 22px;
+    margin-left: 460px;
+    margin-right: 460px; 
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list {
+    display: inline-block;
+}
+
+.menu-link {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+}
+
+.boy-backcolor {
+    background-color: #e8e8e8;
+    position: relative;
+    overflow: hidden;
+    min-height: 613px;
+}
+
+.boy-photo {
+    position: absolute;
+    background-image: url(img/boy.jpg);
+    height: 613px;
+    width: 1365px;
+    left: 225px;
+}
+
+.boy-text {
+    margin-top: 224px;
+    border-left: 12px solid #f16d7f;
+    margin-bottom: 294px;
+    display: inline-block;
+}
+
+.TheBrand {
+    color: #222222;
+    font-size: 60px;
+    font-weight: 650px;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.lux {
+    font-size: 40px;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    font-weight: 650;
+}
+
+.fashion {
+    color: #f16d7f;
+    font-style: normal;
+    letter-spacing: 1px;
+}
