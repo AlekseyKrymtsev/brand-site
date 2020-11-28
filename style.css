@@ -123,6 +123,10 @@ body {
     margin-left: 26px;
 }
 
+.header1 {
+    border: 1px solid #ececec;
+}
+
 .menu {
     padding-top: 19px;
     padding-bottom: 22px;
@@ -192,4 +196,173 @@ body {
     color: #f16d7f;
     font-style: normal;
     letter-spacing: 1px;
+}
+
+.offer {
+    background-color: #222224;
+    display: flex;
+    min-height: 529px;
+}
+
+.offer-photo {
+    background-image: url(img/offer.png);
+    min-width: 766px;
+    min-height: 529px;
+}
+
+.offer-text {
+    margin-left: 39px;
+    margin-top: 146px;
+    min-width: 293px;
+    min-height: 78px;
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+.offer-pink {
+    color: #f16d7f;
+    font-style: normal;
+    letter-spacing: 1.5px;
+}
+
+.text-women {
+    font-size: 32px;
+    font-style: normal;
+    font-size: 32px;
+    font-style: normal;
+    letter-spacing: 0.9px;
+}
+
+.offer-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.free {
+    height: 176px;
+    width: 373px;
+    display: flex;
+}
+
+.free-img {
+    margin-left: 36px;
+    margin-top: 48px;
+}
+
+.free-text {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 43px;
+}
+
+.free-h4 {
+    color: #fbfbfb;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+
+.free-p {
+    color: #fbfbfb;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    letter-spacing: 0.35px;
+    line-height: 24px;
+    padding-top: 17px;
+}
+
+
+.sales {
+    width: 373px;
+    height: 176px;
+    display: flex;
+}
+
+.sales-img {
+    margin-left: 36px;
+    margin-top: 48px;
+}
+
+.sales-text {
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-right: 43px;
+    min-height: 95px;
+    min-width: 219px;
+}
+
+.sales-h4 {
+    color: #fbfbfb;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+
+.sales-p{
+    color: #fbfbfb;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    letter-spacing: 0.35px;
+    line-height: 24px;
+    padding-top: 21px;
+}
+
+.quality {
+    width: 373px;
+    height: 176px;
+    display: flex;
+}
+
+.quality-img {
+    margin-left: 32px;
+    margin-top: 48px;
+}
+
+.quality-text {
+    margin-left: 32px;
+    margin-right: 43px;
+    margin-top: 50px;
+}
+
+.quality-h4 {
+    color: #fbfbfb;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+
+.quality-p {
+    color: #fbfbfb;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    letter-spacing: 0.35px;
+    line-height: 24px;
+    padding-top: 17px;
 }
