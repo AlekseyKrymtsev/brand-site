@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    
 }
 
 .container {
@@ -98,6 +99,10 @@ body {
     background-color: #ffffff;
 }
 
+.magnifier:hover {
+    cursor: pointer;
+    background-color: oldlace;
+}
 
 .my-account {
     display: flex;
@@ -105,6 +110,7 @@ body {
     margin-bottom: 31px;
     margin-left: 335px;
 }
+
 
 .basket {
     padding-top: 9px;
@@ -122,6 +128,12 @@ body {
     text-align: center;
     margin-left: 26px;
     border: none;
+}
+
+.account:hover {
+    cursor: pointer;
+    background-color: oldlace;
+    color: cadetblue;
 }
 
 .header1 {
@@ -342,12 +354,16 @@ body {
     min-height: 746px;
 }
 
+.cart img:hover {
+    opacity: .3;
+}
+
+
 .cart:nth-child(5),
 .cart:nth-child(6),
 .cart:nth-child(7),
 .cart:nth-child(8) {
-    margin-top: 60px;
-      
+    margin-top: 60px;  
 }
 
 .cart-browse {
@@ -364,6 +380,12 @@ body {
     margin-top: 79px;
     border: none;
     
+}
+
+.cart-browse:hover {
+    cursor: pointer;
+    background-color: oldlace;
+    color: cadetblue;
 }
 
 .cart-text {
@@ -644,6 +666,12 @@ body {
     font-style: normal;
     letter-spacing: 0.35px;
     line-height: normal;
+}
+
+.ocean-subscribe button:hover {
+    cursor: pointer;
+    background-color: oldlace;
+    color: cadetblue;
 }
 
 .ocean-text {
