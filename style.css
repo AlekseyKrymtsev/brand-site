@@ -166,6 +166,10 @@ body {
     text-decoration: none;
 }
 
+.menu-link:hover {
+    border-bottom: 3px solid #ef5b70;
+}
+
 .boy-backcolor {
     background-color: #e8e8e8;
     position: relative;
