@@ -114,8 +114,8 @@ body {
 
 
 .navigation {
-    display: inline;
     text-align: center;
+    border-top: 1px solid #ececec;
 }
 
 .nav {
